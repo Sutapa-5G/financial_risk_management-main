@@ -8,13 +8,14 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     # Vite's default dev port is 5173; 3000 and 8080 cover alternate setups.
     cors_origins: list[str] = [
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://localhost:8080",
-        "http://127.0.0.1:8080",
-    ]
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:8080",
+    "http://127.0.0.1:8080",
+    "https://financial-risk-management-main.vercel.app",
+]
 
     class Config:
         env_prefix = "RISK_NAVIGATOR_"

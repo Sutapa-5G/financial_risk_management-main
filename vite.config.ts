@@ -12,4 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Override the default Cloudflare target so `npm run build` produces
+  // Vercel-compatible output (.vercel/output) instead of a Cloudflare Worker.
+  nitro: { preset: "vercel" },
 });

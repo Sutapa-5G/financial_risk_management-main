@@ -4,7 +4,7 @@ Build a Financial Risk Modelling Dashboard — a professional, data-dense web ap
 
 
 
-DESIGN DIRECTION
+DESIGN DIRECTION:
 
 - Dark theme, fintech/quant aesthetic (think Bloomberg Terminal meets modern SaaS — not generic dashboard templates)
 
